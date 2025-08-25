@@ -1,17 +1,33 @@
-# Patientenspezifische Hand-Orthese – VDI 2221 / MBSE
+# Patient-Specific Hand Orthosis – MBSE
 
-End-to-End Engineering-Design mit Anforderungen, Variantenbewertung, CAD und Validierung.
+<p align="left">
+  <img src="https://img.shields.io/badge/Focus-MBSE-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Methods-SysML%20%7C%20V--Model%20%7C%20V%26V-lightgrey?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-MIT-brightgreen?style=for-the-badge" />
+</p>
 
-## ⭐ STAR (Kurzfassung)
-- **Situation:** Mechatronische Orthese mit hohen funktionalen & ergonomischen Anforderungen.
-- **Task:** Systematische Entwicklung nach VDI 2221 inkl. Anforderungsmanagement und Design-Validierung.
-- **Action:** Anforderungen, Funktions-/Lösungsstrukturen, morphologischer Kasten, Variantenauswahl, CAD-Konstruktion; Dokumentation.
-- **Result:** Validiertes Konzept; vollständige Nachverfolgbarkeit der Anforderungen; Basis für Prototyping.
+End-to-end MBSE for a mechatronic orthosis: requirements, SysML architecture (BDD/IBD), behavior (state/activity), 
+parametrics, and verification/validation.
 
-## Struktur
-- `docs/figures/` – Bilder & Grafiken
-- `docs/sources/` – Originaldokumente
-- `README.md` – Projektübersicht
+---
 
-## Lizenz
-MIT
+## ⭐ STAR Summary
+- **Situation:** Complex device with strict functional and non-functional requirements.
+- **Task:** Ensure full lifecycle coverage with traceability and testability.
+- **Action:** Requirements analysis; SysML BDD/IBD/State/Activity; V&V plan; trace matrix.
+- **Result:** Fully specified & validated concept; **clear traceability** for future iterations.
+
+---
+
+## 🖼️ Highlights
+![BDD](docs/diagrams/bdd.png)
+![State Machine](docs/diagrams/state.png)
+
+---
+
+## 📂 Repository Map
+- `docs/reports/` – sanitized report (signature page removed)
+- `docs/diagrams/` – exported SysML images
+- `docs/artifacts/` – requirements & traceability CSVs
+- `model/` – SysML/XMI (if exportable)
+- `LICENSE` – MIT
